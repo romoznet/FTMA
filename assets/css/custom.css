@@ -1,0 +1,93 @@
+.mobile-nav .logo img {
+  height: 50px;
+}
+
+@media only screen and (max-width: 991px) {
+  .mobile-nav {
+    padding: 36px 0px;
+  }
+}
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.navbar .logo h1 {
+  font-weight: bold;
+  font-size: 32px;
+  margin: 0;
+  color: var(--mainColor);
+}
+.navbar .logo img {
+  height: 65px;
+}
+
+.footer-widget .logo img {
+  height: 80px;
+  filter: brightness(0) invert(1);
+}
+
+.premier-league-card {
+  height: 100%;
+}
+.premier-league-card .premier-league-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+.premier-league-card .premier-league-item img {
+  margin: 0;
+  width: 100%;
+  aspect-ratio: 1;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 12px;
+  max-height: 150px;
+}
+.premier-league-card .premier-league-item h2 {
+  margin: 0;
+}
+.premier-league-card .premier-league-item span {
+  font-size: 14px;
+}
+.premier-league-card .premier-league-item p {
+  font-size: 12px;
+}
+
+.match-schedule-card .match-schedule-img .match-img {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.match-schedule-card .match-schedule-img .match-img img {
+  margin: 0;
+  width: 100%;
+  aspect-ratio: 1;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 12px;
+  max-height: 150px;
+}
+
+.single-player-card .player-img img {
+  transition: var(--transition);
+  aspect-ratio: 3/4;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.banner-two-content h1 {
+  font-size: 60px;
+}
+
+.single-blog-card .blog-img img {
+  transition: var(--transition);
+  aspect-ratio: 3/2;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=custom.css.map */
