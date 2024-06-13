@@ -78,10 +78,18 @@
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  max-height: 350px;
+  -o-object-position: top;
+     object-position: top;
 }
 
 .banner-two-content h1 {
   font-size: 60px;
+}
+@media only screen and (max-width: 767px) {
+  .banner-two-content h1 {
+    font-size: 28px;
+  }
 }
 
 .single-blog-card .blog-img img {
@@ -90,4 +98,13 @@
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.page-banner-img {
+  text-align: end;
+}
+.page-banner-img img {
+  max-height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=custom.css.map */
